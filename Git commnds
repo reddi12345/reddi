@@ -7,6 +7,8 @@ Your changes stay in the staging area (ready to commit again).
 
 Undo the last commit and move changes back to working area (unstaged)
 git reset HEAD~1
+git reset HEAD~2
+
 The commit is removed.
 Your changes are now in the working area, so you can edit them freely.
 
