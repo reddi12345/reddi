@@ -1,3 +1,18 @@
-So the main issue is: your local branch is behind the remote branch, and Git is preventing you from overwriting remote commits without first syncing.
+Undo the last commit but keep changes staged
+git reset --soft HEAD~1
+The commit is removed.
+Your changes stay in the staging area (ready to commit again).
 
-Do you want me to show you the safe workflow with git pull --rebase (which keeps history clean and avoids messy merge commits)?
+
+
+Undo the last commit and move changes back to working area (unstaged)
+git reset HEAD~1
+The commit is removed.
+Your changes are now in the working area, so you can edit them freely.
+
+
+Undo the last commit and discard changes completely (dangerous)
+git reset --hard HEAD~1
+The commit is removed.
+
+All changes are lost permanently.
