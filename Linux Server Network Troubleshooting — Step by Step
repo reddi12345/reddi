@@ -1,0 +1,13 @@
+As a DevOps Engineer, when an application is not accessible, a server is unreachable, or users report slowness, you need to determine whether the issue is with the network, server, application, DNS, firewall, or load balancer.
+Follow this procedure in production. Start with read-only checks before making changes.
+Step 1: Check whether the server is healthy
+Log in to the server using SSH, if possible.
+uptime
+top
+free -h
+df -h
+
+Check whether the server is reachable
+ping <server-ip>
+check the network route
+ip route
