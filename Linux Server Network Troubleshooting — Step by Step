@@ -6,6 +6,7 @@ uptime
 top
 free -h
 df -h
+dh -sh
 
 Check whether the server is reachable
 ping <server-ip>
