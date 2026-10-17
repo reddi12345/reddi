@@ -8,7 +8,7 @@ metadata:
     app: my-app
 
 spec:
-<<<<<<< HEAD
+<<<<<<< HED
   replicas: 7
 =======
   replicas: 5
