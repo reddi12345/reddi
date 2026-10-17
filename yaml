@@ -9,7 +9,7 @@ metadata:
 
 spec:
 <<<<<<< HEAD
-  replicas: 6
+  replicas: 7
 =======
   replicas: 5
 >>>>>>> 480a9f4e9880344f5ccb98f1df05414fa4f2b357
